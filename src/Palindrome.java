@@ -1,12 +1,17 @@
+// Checking the Palindrome Number
+// Palindrome Number are number == reverse of number
+// i.e 121 == 121 
+
 import java.util.Scanner;
 
 public class Palindrome {
 
 	public static void main(String[] args) {
-		 int  a , b , r;
+		 int  a , r;
 		 Scanner sc = new Scanner(System.in);
 		 System.out.println("Enter the number ");
 		 int i = sc.nextInt();
+		 sc.close();
 		 int j = i;
 		 
 		 a = 0;

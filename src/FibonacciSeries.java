@@ -1,3 +1,7 @@
+// Finding Fibonacci Series
+// Fibonacci Series are sum of two consecutive number is the next number in series
+
+
 import java.util.Scanner;
 
 public class FibonacciSeries {
@@ -11,7 +15,7 @@ public class FibonacciSeries {
 		 System.out.println("Enter the number ");
 		 
 		 int n = sc.nextInt();
-		 
+		 sc.close();
 		 System.out.println(b);
 		 
 		 for(j = 1 ; j <= n ; j++) {

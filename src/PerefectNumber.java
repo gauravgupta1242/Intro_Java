@@ -1,6 +1,9 @@
+// Check Perfect number 
+// Perfect number are sum of its factor gives the same number
+
 import java.util.Scanner;
 
-public class PerfectNumber {
+public class PerefectNumber {
 
 	public static void main(String[] args) {
 		
@@ -8,7 +11,7 @@ public class PerfectNumber {
 		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-				
+		sc.close();		
 		
 		boolean b = isPerfect(n);
 		if(b)
