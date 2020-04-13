@@ -13,7 +13,7 @@ public class CallByReference {
 		
 		// values of r1.length got change to that initiated by r2 object  in modify method.
 		// after calling the method both r1 and r2 point toward the same object in the heap memory.
-		System.out.println(r1.length);
+		System.out.println("R1 length is " + r1.length);
 		
 		
 	}
@@ -23,7 +23,7 @@ public class CallByReference {
 	public static void modify(Rectangle r2 )
 	{
 		r2.length = 40; 
-		System.out.println(r2.length);
+		System.out.println("R2 lenth is " + r2.length);
 	}
 
 }
